@@ -60,7 +60,7 @@ TARGET_USES_HWC2 := true
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := /dev/mokee.touch@1.0/dt2w
+TARGET_TAP_TO_WAKE_NODE := /dev/lineage.touch@1.0/dt2w
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
