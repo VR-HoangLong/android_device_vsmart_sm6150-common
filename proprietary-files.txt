@@ -1,3 +1,104 @@
+# Alarm - from V620A_OPEN_U_M8_20200526
+-product/app/PowerOffAlarm/PowerOffAlarm.apk
+vendor/bin/power_off_alarm
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
+vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
+vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so
+vendor/lib/vendor.qti.hardware.alarm@1.0.so
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so
+
+# Bluetooth - from V620A_OPEN_U_M8_20200526
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
+vendor/lib64/libbtnv.so
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
+
+# Charger - from V620A_OPEN_U_M8_20200526
+vendor/bin/hvdcp_opti
+
+# DPM - from V620A_OPEN_U_M8_20200526
+framework/tcmclient.jar
+system_ext/bin/dpmd
+system_ext/etc/dpm/dpm.conf
+system_ext/etc/init/dpmd.rc
+system_ext/etc/permissions/com.qti.dpmframework.xml
+system_ext/etc/permissions/dpmapi.xml
+system_ext/framework/com.qti.dpmframework.jar
+system_ext/framework/dpmapi.jar
+system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so
+system_ext/lib64/libdiag_system.so
+system_ext/lib64/libdpmctmgr.so
+system_ext/lib64/libdpmfdmgr.so
+system_ext/lib64/libdpmframework.so
+system_ext/lib64/libdpmtcm.so
+system_ext/lib64/vendor.qti.diaghal@1.0.so
+-system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
+vendor/bin/dpmQmiMgr
+vendor/etc/init/dpmQmiMgr.rc
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
+vendor/lib64/libdpmqmihal.so
+
+# DRM - from V620A_OPEN_U_M8_20200526
+vendor/bin/qseecomd
+vendor/lib/libQSEEComAPI.so
+vendor/lib/libsdedrm.so
+vendor/lib64/libdrmfs.so
+vendor/lib64/libdrmtime.so
+vendor/lib64/libGPreqcancel.so
+vendor/lib64/libGPreqcancel_svc.so
+vendor/lib64/libqisl.so
+vendor/lib64/libQSEEComAPI.so
+vendor/lib64/librpmb.so
+vendor/lib64/libsdedrm.so
+vendor/lib64/libsecureui_svcsock.so
+vendor/lib64/libSecureUILib.so
+vendor/lib64/libssd.so
+vendor/lib64/libStDrvInt.so
+
+# DRM - Widevine - from V620A_OPEN_U_M8_20200526
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
+-vendor/etc/vintf/manifest/android.hardware.drm@1.1-service.widevine.xml
+vendor/lib/libbase64.so
+vendor/lib/libcpion.so
+vendor/lib/librmp.so
+vendor/lib/libwvhidl.so
+vendor/lib/mediadrm/libwvdrmengine.so
+vendor/lib64/libbase64.so
+vendor/lib64/libcpion.so
+vendor/lib64/librmp.so
+vendor/lib64/mediadrm/libwvdrmengine.so
+
+# Graphics (HDR) - from V620A_OPEN_U_M8_20200526
+vendor/lib/libhdr_tm.so
+vendor/lib64/libhdr_tm.so
+
+# Graphics (SDM) - from V620A_OPEN_U_M8_20200526
+vendor/lib/libqseed3.so
+vendor/lib/libsdm-color.so
+vendor/lib/libsdm-colormgr-algo.so
+vendor/lib/libsdmcore.so
+vendor/lib/libsdm-diag.so
+vendor/lib/libsdmextension.so
+vendor/lib/libsdmutils.so
+vendor/lib/libtinyxml2_1.so
+vendor/lib64/libqseed3.so
+vendor/lib64/libsdm-color.so
+vendor/lib64/libsdm-colormgr-algo.so
+vendor/lib64/libsdmcore.so
+vendor/lib64/libsdm-diag.so
+vendor/lib64/libsdm-disp-vndapis.so
+vendor/lib64/libsdmextension.so
+vendor/lib64/libsdmutils.so
+vendor/lib64/libtinyxml2_1.so
+
+# Graphics (Vulkan) - from V620A_OPEN_U_M8_20200526
+vendor/lib/hw/vulkan.sm6150.so
+vendor/lib64/hw/vulkan.sm6150.so
+
 # IMS
 -priv-app/ims/ims.apk|e33b65ab994691938696da56c4f41acd4bf832dc
 lib64/lib-imsvideocodec.so
@@ -10,6 +111,25 @@ lib64/libimsmedia_jni.so
 lib64/librcc.so
 lib64/vendor.qti.imsrtpservice@1.0.so
 
+# IRQ balance - from V620A_OPEN_U_M8_20200526
+vendor/bin/msm_irqbalance
+
+# Keymaster - from V620A_OPEN_U_M8_20200526
+vendor/lib/libkeymasterdeviceutils.so
+vendor/lib/libkeymasterprovision.so
+vendor/lib/libkeymasterutils.so
+vendor/lib64/libkeymasterdeviceutils.so
+vendor/lib64/libkeymasterprovision.so
+vendor/lib64/libkeymasterutils.so
+
+# Listen - from V620A_OPEN_U_M8_20200526
+vendor/lib/libadpcmdec.so
+vendor/lib/libgcs-calwrapper.so
+vendor/lib/libgcs-ipc.so
+vendor/lib/libgcs-osal.so
+vendor/lib/libgcs.so
+vendor/lib/libsmwrapper.so
+
 # Media
 lib/extractors/libmmparser.so
 lib/libFileMux.so
@@ -17,6 +137,15 @@ lib/libOmxMux.so
 lib/libmmosal.so
 lib/libmmparser_lite.so
 lib64/libmmosal.so
+
+# Perf - from V620A_OPEN_U_M8_20200526
+vendor/lib/libqti-perfd-client.so
+vendor/lib64/libqti-perfd-client.so
+
+# Peripheral manager - from V620A_OPEN_U_M8_20200526
+vendor/bin/pm-proxy
+vendor/bin/pm-service
+vendor/lib64/libperipheral_client.so
 
 # Telephony
 -app/QtiTelephonyService/QtiTelephonyService.apk
@@ -30,3 +159,23 @@ etc/sysconfig/qti_whitelist.xml
 framework/QtiTelephonyServicelibrary.jar
 framework/qcrilhook.jar
 framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
+
+# Soter - from jason V12.0.1.0.PCHCNXM
+-app/SoterService/SoterService.apk|c6c6063f83588db6c572779624458a4d1f094213
+
+# Soter - from V620A_OPEN_U_M8_20200526
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.soter@1.0.so
+
+# Time services - from V620A_OPEN_U_M8_20200526
+-vendor/app/TimeService/TimeService.apk
+vendor/bin/time_daemon
+vendor/lib/libtime_genoff.so
+vendor/lib64/libtime_genoff.so
+
+# TUI - from V620A_OPEN_U_M8_20200526
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
