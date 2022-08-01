@@ -58,20 +58,6 @@ vendor/lib64/libSecureUILib.so
 vendor/lib64/libssd.so
 vendor/lib64/libStDrvInt.so
 
-# DRM - Widevine - from V620A_OPEN_U_M8_20200526
-vendor/bin/hw/android.hardware.drm@1.1-service.widevine
-vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
--vendor/etc/vintf/manifest/android.hardware.drm@1.1-service.widevine.xml
-vendor/lib/libbase64.so
-vendor/lib/libcpion.so
-vendor/lib/librmp.so
-vendor/lib/libwvhidl.so
-vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib64/libbase64.so
-vendor/lib64/libcpion.so
-vendor/lib64/librmp.so
-vendor/lib64/mediadrm/libwvdrmengine.so
-
 # Graphics (HDR) - from V620A_OPEN_U_M8_20200526
 vendor/lib/libhdr_tm.so
 vendor/lib64/libhdr_tm.so
